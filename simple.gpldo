@@ -1,0 +1,43 @@
+set term mf
+set output "simplef.mf"
+set grid
+unset border
+unset key
+
+plot "bubble_sort_random_0.dat" using 1:2 with points
+plot "bubble_sort_random_25.dat" using 1:2 with points
+plot "bubble_sort_random_50.dat" using 1:2 with points
+plot "bubble_sort_random_75.dat" using 1:2 with points
+plot "bubble_sort_random_100.dat" using 1:2 with points
+
+plot "bubble_sort_desc_0.dat" using 1:2 with points
+plot "bubble_sort_desc_25.dat" using 1:2 with points
+plot "bubble_sort_desc_50.dat" using 1:2 with points
+plot "bubble_sort_desc_75.dat" using 1:2 with points
+plot "bubble_sort_desc_100.dat" using 1:2 with points
+
+plot "insert_sort_random_0.dat" using 1:2 with points
+plot "insert_sort_random_25.dat" using 1:2 with points
+plot "insert_sort_random_50.dat" using 1:2 with points
+plot "insert_sort_random_75.dat" using 1:2 with points
+plot "insert_sort_random_100.dat" using 1:2 with points
+
+plot "insert_sort_desc_0.dat" using 1:2 with points
+plot "insert_sort_desc_25.dat" using 1:2 with points
+plot "insert_sort_desc_50.dat" using 1:2 with points
+plot "insert_sort_desc_75.dat" using 1:2 with points
+plot "insert_sort_desc_100.dat" using 1:2 with points
+
+plot "select_sort_random_0.dat" using 1:2 with points
+plot "select_sort_random_25.dat" using 1:2 with points
+plot "select_sort_random_50.dat" using 1:2 with points
+plot "select_sort_random_75.dat" using 1:2 with points
+plot "select_sort_random_100.dat" using 1:2 with points
+
+plot "select_sort_desc_0.dat" using 1:2 with points
+plot "select_sort_desc_25.dat" using 1:2 with points
+plot "select_sort_desc_50.dat" using 1:2 with points
+plot "select_sort_desc_75.dat" using 1:2 with points
+plot "select_sort_desc_100.dat" using 1:2 with points
+
+
